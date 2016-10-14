@@ -1,0 +1,86 @@
+/*
+Theme Name: Birva
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+textarea, input[type="text"], select {
+	text-align: right;
+}
+.search_form:before, .search_form input.search_btn {
+	left: 0px;
+}
+/**
+ * Blog Post
+ * -----------------------------------------------------------------------------
+ */
+.postcontent {
+	text-align: right;
+}
+
+/**** CONTACT ****/
+.mail-message {
+  text-align: right;
+}
+#contactform .btn.btn-default {
+  float: right;
+}
+/**
+ * 7.1 Widgets
+ * -----------------------------------------------------------------------------
+ */
+.widget li, .widget h3 {
+  text-align: right;
+}
+
+.widget_calendar caption {
+	text-align: right;
+}
+
+.widget_calendar #prev {
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+.widget_calendar #next {
+	padding-right: 0;
+	padding-left: 5px;
+	text-align: left;
+}
+/**** COMMENT ****/
+.comment-respond {
+  text-align: right;
+}
+#comments h3.margbot40 {
+	text-align: right;
+}
+.form-submit {
+  text-align: right;
+}
+#comment_form input[type="submit"] {
+  display: inline-block;
+}
+
+.alert {
+  text-align: right;
+}
+.custom-heading.text-left {
+	text-align: right;
+}
+.panel-body {
+  text-align: right;
+}
+.panel-default .panel-heading .panel-title i {float: left;}
+.panel-default .panel-heading .panel-title {text-align: right;}
+.nav-tabs > li {float: right;}
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+  text-align: right;
+}
+/**** Skill Bar ****/
+.progress-bar {
+	text-align: right;
+	float: right;
+}
